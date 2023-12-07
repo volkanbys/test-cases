@@ -1,0 +1,35 @@
+:imagesdir: images
+
+=  Araç Kiralama Search Kontrolü
+
+**Açıklama:**
+
+Araç Kiralama için search işleminin yapılabildiğinin kontrolü.
+
+**Ön Koşullar:**
+
+- 
+
+**Test Adımları:**
+
+. Web tarayıcıda https://www.flypgs.com linkine girilir.
+. "Araç Kiralama / Konaklama" butonuna tıklanır.
+. "Araç Kiralama" butonu tıklanır.
+. "Farklı bir araç teslim yeri" checkbox'ı tıklanır.
+. "Şehir ya da Havalimanı Seç" inputuna "istanbul" yazılır, listeden "Istanbul - New Airport" seçilir.
+. Araçın teslimi için "Şehir ya da Havalimanı Seç" inputuna "istanbul" yazılır, listeden "Istanbul - Sabiha Gokcen Airport" seçilir.
+. "Başlangıç tarihi ve saati" içinde bulunulan günden bir sonraki gün saat 10:00 olarak seçilir.
+. "Bitiş tarihi ve saati" içinde bulunulan günden iki sonraki gün saat 10:00 olarak seçilir.
+. "ARA" butonuna tıklanır.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com linkine girince anasayfa açılmalı.
+. "Araç Kiralama / Konaklama" butonuna tıklayınca "Araç Kiralama / Konaklama" search alanı açılmalı.
+. "Araç Kiralama" tıklayınca radio buton seçili duruma gelmeli.
+. "Farklı bir araç teslim yeri" tıklanınca checkbox seçili duruma gelmeli.
+. Şehir/Havalimanı, Tarih, Saat seçimleri yapıldıktan sonra "ARA" butonuna tıklayınca https://cars.flypgs.com/tr/book sayfasına yönlendirmeli.
+
+image::arac-kiralama-search-kontrolu-1.png[]
+image::arac-kiralama-search-kontrolu-2.png[]
+
