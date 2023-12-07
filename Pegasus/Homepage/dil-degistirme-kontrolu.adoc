@@ -1,0 +1,30 @@
+:imagesdir: images
+
+=  Dil Değiştirme Kontrolü
+
+**Açıklama:**
+
+Dil değiştirme işleminin başarılı bir şekilde gerçekleştiğinin kontrolü.
+
+**Ön Koşullar:**
+
+- Mevcut dil TR olarak seçili olmalı.
+
+**Test Adımları:**
+
+. https://www.flypgs.com linkine girilir.
+. Sayfanın sağ üst tarafındaki dil değiştirme butonuna tıklanır.
+. Açılan menüden EN (İngilizce) tıklanır.
+. Sayfa içeriğinin dili kontrol edilir.
+. https://www.flypgs.com/ url'i kontrol edilir.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com linkine girince uygulama anasayfası açılmalı.
+. Dil değiştirme butonuna tıklayınca dil seçeneklerinin olduğu menü açılmalı.
+. Sayfa içeriğinin dili İngilizce olarak değişmeli.
+. https://www.flypgs.com/ url'i https://www.flypgs.com/en şeklinde değişmeli.
+
+image::dil-degistirme-kontrolu-1.png[]
+image::dil-degistirme-kontrolu-2.png[]
+
