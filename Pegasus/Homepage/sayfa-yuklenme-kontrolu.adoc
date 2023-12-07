@@ -1,0 +1,23 @@
+:imagesdir: images
+
+=  Sayfa Yüklenme Kontrolü
+
+**Açıklama:**
+
+Anasayfanın başarılı bir şekilde yüklendiğinin (açıldığının) kontrolü.
+
+**Ön Koşullar:**
+
+- 
+
+**Test Adımları:**
+
+. https://www.flypgs.com linki web tarayıcıda girilir.
+. Sayfa kontrol edilir.
+
+**Beklenen Sonuçlar:**
+
+. Sayfa başarılı bir şekilde yüklenmeli.
+
+image::sayfa-yuklenme-kontrolu.png[]
+
