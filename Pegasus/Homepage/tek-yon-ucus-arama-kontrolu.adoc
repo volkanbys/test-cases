@@ -1,0 +1,37 @@
+:imagesdir: images
+
+=  Tek Yön uçuş arama kontrolü
+
+**Açıklama:**
+
+Tek yön uçuş araması yapılabildiğinin kontrolü.
+
+**Ön Koşullar:**
+
+- Ankara - İstanbul rotasında uçuş listelenen en az 1 gün olmalı.
+
+**Test Adımları:**
+
+. Web tarayıcıda https://www.flypgs.com linkine girilir.
+. "Ucuz Uçak Bileti Ara" butonu tıklanır.
+. "Tek Yön" butonu tıklanır.
+. "Nereden" inputu tıklanır, "Ankara" portu seçilir.
+. "Nereye" inputu tıklanır, "İstanbul-Tümü" portu seçilir.
+. "Gidiş Tarihi" inputu tıklanır, tarih seçimi yapılır.
+. "Yolcu" inputu tıklanır, 2 adult - 1 Child - 1 Infant yolcu seçilir, "Tamam" butonuna tıklanır.
+. "UCUZ UÇUŞ ARA" butonuna tıklanır.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com linkine girince anasayfa açılmalı.
+. "Ucuz Uçak Bileti Ara" butonuna tıklayınca uçuş arama alanı görünmeli.
+. "Tek Yön" butonuna tıklayınca "Dönüş Tarihi" inputunun yazısı "Tek Yön" olarak değişmeli.
+. "Nereden" inputuna tıklayınca kalkış portları ve ülkelerinin bulunduğu liste açılmalı, port seçimi yapınca liste kapanmalı.
+. "Nereye" inputuna tıklayınca varış portları ve ülkelerinin  bulunduğu liste açılmalı, port seçimi yapınca liste kapanmalı.
+. "Gidiş Tarihi" inputuna tıklayınca takvim açılmalı, tarih seçimi yapınca takvim kapanmalı.
+. "Yolcu" inputuna tıklayınca yolcu seçim popup'ı açılmalı, yolcu seçimlerini yapıp "Tamam" butonuna tıklayınca popup kapanmalı.
+. "UCUZ UÇUŞ ARA" butonuna tıklayınca https://web.flypgs.com/booking sayfasına yönlendirmeli, sayfada seçilen tarihteki uçuşlar listelenmeli.
+
+image::tek-yon-ucus-arama-kontrolu-1.png[]
+image::tek-yon-ucus-arama-kontrolu-2.png[]
+
