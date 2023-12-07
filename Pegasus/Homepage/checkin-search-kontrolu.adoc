@@ -1,0 +1,28 @@
+:imagesdir: images
+
+=  Checkin Search Kontrolü
+
+**Açıklama:**
+
+Checkin search işleminin yapılabildiğinin kontrolü.
+
+**Ön Koşullar:**
+
+- 
+
+**Test Adımları:**
+
+. Web tarayıcıda https://www.flypgs.com linkine girilir.
+. "Online Check-In" butonuna tıklanır.
+. "Yolcunun Soyadı" inputuna "TEST" yazılır.
+. "Rezervasyon Kodu (PNR)" inputuna "12345" yazılır.
+. "DEVAM" butonuna tıklanır.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com linkine girince anasayfa açılmalı.
+. "Online Check-In" butonuna tıklayınca "Yolcunun Soyadı" ve "Rezervasyon Kodu (PNR)" inputlarının bulunduğu alan açılmalı.
+. "DEVAM" butonuna tıklayınca https://web.flypgs.com/check-in sayfasına yönlendirmeli. 
+
+image::checkin-search-kontrolu-1.png[]
+image::checkin-search-kontrolu-2.png[]
