@@ -26,7 +26,7 @@ Araç Kiralama için search işleminin yapılabildiğinin kontrolü.
 
 . https://www.flypgs.com linkine girince anasayfa açılmalı.
 . "Araç Kiralama / Konaklama" butonuna tıklayınca "Araç Kiralama / Konaklama" search alanı açılmalı.
-. "Araç Kiralama" tıklayınca radio buton seçili duruma gelmeli.
+. "Araç Kiralama" tıklanınca radio buton seçili duruma gelmeli.
 . "Farklı bir araç teslim yeri" tıklanınca checkbox seçili duruma gelmeli.
 . Şehir/Havalimanı, Tarih, Saat seçimleri yapıldıktan sonra "ARA" butonuna tıklayınca https://cars.flypgs.com/tr/book sayfasına yönlendirmeli.
 

@@ -1,0 +1,38 @@
+:imagesdir: images
+
+=  Konaklama Search Kontrolü
+
+**Açıklama:**
+
+Konaklama için search işleminin yapılabildiğinin kontrolü.
+
+**Ön Koşullar:**
+
+-
+
+**Test Adımları:**
+
+. Web tarayıcıda https://www.flypgs.com linkine girilir.
+. "Araç Kiralama / Konaklama" butonuna tıklanır.
+. "Konaklama" butonu tıklanır.
+. "Hotels" butonu tıklanır.
+. "Konaklayacağınız Şehir" inputuna "istanbul" yazılır, listeden "İstanbul, Istanbul, Türkiye" seçilir.
+. "Gidiş Tarihi" inputuna tıklanır, takvimde içinde bulunulan günden bir sonraki gün seçilir.
+. "Dönüş Tarihi" inputuna tıklanır, takvimde içinde bulunulan günden iki sonraki gün seçilir.
+. "Misafirler" inputu tıklanır, 1 Adult seçilir, "Tamam" butonuna tıklanır.
+. "ARA" butonuna tıklanır.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com linkine girince anasayfa açılmalı.
+. "Araç Kiralama / Konaklama" butonuna tıklayınca "Araç Kiralama / Konaklama" search alanı açılmalı.
+. "Konaklama" tıklanınca radio buton seçili duruma gelmeli.
+. "Hotels" tıklanınca "Hotels" seçeneği seçili duruma gelmeli.
+. "Gidiş Tarihi" inputuna tıklayınca takvim açılmalı, gün seçilince takvim kapanmalı.
+. "Dönüş Tarihi" inputuna tıklayınca takvim açılmalı, gün seçilince takvim kapanmalı.
+. "Misafirler" inputuna tıklayınca misafir seçim popup'ı açılmalı, misafir seçimini yapıp "Tamam" butonuna tıklayınca popup kapanmalı.
+. "ARA" butonuna tıklayınca yeni sekmede https://hotels.flypgs.com/search sayfası açılmalı.
+
+image::konaklama-search-kontrolu-1.png[]
+image::konaklama-search-kontrolu-2.png[]
+
