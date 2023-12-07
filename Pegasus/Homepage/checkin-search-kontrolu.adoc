@@ -15,7 +15,7 @@ Checkin search işleminin yapılabildiğinin kontrolü.
 . Web tarayıcıda https://www.flypgs.com linkine girilir.
 . "Online Check-In" butonuna tıklanır.
 . "Yolcunun Soyadı" inputuna "TEST" yazılır.
-. "Rezervasyon Kodu (PNR)" inputuna "12345" yazılır.
+. "Rezervasyon Kodu (PNR)" inputuna "123456" yazılır.
 . "DEVAM" butonuna tıklanır.
 
 **Beklenen Sonuçlar:**

@@ -1,0 +1,30 @@
+:imagesdir: images
+
+=  Manage Booking Search Kontrolü
+
+**Açıklama:**
+
+Pegasus Üzerinden Yapılan Rezervasyonlar için "Uçuşunu Yönet (Manage Booking)" search işleminin yapılabildiğinin kontrolü.
+
+**Ön Koşullar:**
+
+- 
+
+**Test Adımları:**
+
+. Web tarayıcıda https://www.flypgs.com linkine girilir.
+. "Uçuşunu Yönet" butonuna tıklanır.
+. "Pegasus Üzerinden Yapılan Rezervasyonlar" seçeneği tıklanır.
+. "Yolcunun Soyadı" inputuna "TEST" yazılır.
+. "Rezervasyon Kodu (PNR)" inputuna "123456" yazılır.
+. "DEVAM" butonuna tıklanır.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com linkine girince anasayfa açılmalı.
+. "Uçuşunu Yönet" butonuna tıklayınca "Pegasus Üzerinden Yapılan Rezervasyonlar" , "Tur Operatörleri Üzerinden Yapılan Rezervasyonlar" , "Yolcunun Soyadı" ve "Rezervasyon Kodu (PNR)" radio buton/inputlarının bulunduğu alan açılmalı.
+. "Pegasus Üzerinden Yapılan Rezervasyonlar" seçeneği tıklanınca radio buton seçili duruma gelmeli.
+. "DEVAM" butonuna tıklayınca https://web.flypgs.com/manage-booking sayfasına yönlendirmeli. 
+
+image::manage-booking-pgs-search-kontrolu-1.png[]
+image::manage-booking-pgs-search-kontrolu-2.png[]
