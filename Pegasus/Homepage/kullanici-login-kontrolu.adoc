@@ -1,0 +1,31 @@
+:imagesdir: images
+
+=  Kullanıcı Login Kontrolü
+
+**Açıklama:**
+
+Kullanıcının başarılı şekilde login olduğunun kontrolü.
+
+**Ön Koşullar:**
+
+- Geçerli bir kullanıcı adı (telefon numarası) ve şifre bilgisi mevcut olmalı.
+
+**Test Adımları:**
+
+. https://www.flypgs.com linki web tarayıcıda girilir.
+. Sayfanın sağ üst tarafındaki “BolBol Üye Girişi” butonu tıklanır.
+. Cep telefonu inputuna telefon numarası girilir.
+. Parola inputuna parola girilir.
+. “Ben robot değilim” checkbox’ı tıklanır.
+. “GİRİŞ YAPIN” butonuna tıklanır.
+
+**Beklenen Sonuçlar:**
+
+. https://www.flypgs.com/ linkine girilince pegasus anasayfası açılmalı.
+. “BolBol Üye Girişi” butonuna tıklayınca “Pegasus BolBol Üye Girişi” popup’ı açılmalı.
+. “Ben robot değilim” checkbox’ı tıklanınca checkboxta yeşil tik işareti görünmeli.
+. “GİRİŞ YAPIN” butonuna tıklayınca popup kapanmalı ve sayfanın sağ üst tarafındaki “BolBol Üye Girişi” butonu yerinde kullanıcı adı yazmalı.
+
+image::kullanici-login-kontrolu-1.png[]
+image::kullanici-login-kontrolu-2.png[]
+
