@@ -8,7 +8,7 @@ Dil değiştirme işleminin başarılı bir şekilde gerçekleştiğinin kontrol
 
 **Ön Koşullar:**
 
-- Mevcut dil TR olarak seçili olmalı.
+- Default dil TR olmalı.
 
 **Test Adımları:**
 
@@ -22,7 +22,7 @@ Dil değiştirme işleminin başarılı bir şekilde gerçekleştiğinin kontrol
 
 . https://www.flypgs.com linkine girince uygulama anasayfası açılmalı.
 . Dil değiştirme butonuna tıklayınca dil seçeneklerinin olduğu menü açılmalı.
-. Sayfa içeriğinin dili İngilizce olarak değişmeli.
+. EN tıklandığında sayfa içeriğinin dili İngilizce olarak değişmeli.
 . https://www.flypgs.com/ url'i https://www.flypgs.com/en şeklinde değişmeli.
 
 image::dil-degistirme-kontrolu-1.png[]
